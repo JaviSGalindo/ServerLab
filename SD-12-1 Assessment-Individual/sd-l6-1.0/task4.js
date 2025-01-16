@@ -9,7 +9,7 @@ async function delUser(id) {
     }
 }
 
-// Llamar a la función para eliminar el usuario con ID 6
+
 delUser(6);
 
 export { delUser };

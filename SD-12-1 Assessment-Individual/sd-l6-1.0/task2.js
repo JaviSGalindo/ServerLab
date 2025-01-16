@@ -5,7 +5,7 @@ async function listUsers() {
     try {
         const usersList = await fetch(getServerURL());
         const users = await usersList.json();
-        return users;
+        return console.log(users);
     } catch (error) {
         console.error('Error fetching data: ', error);
         return [];
